@@ -11,7 +11,8 @@
     background-image: url(img/dino.png);
     background-size: 100px 100px;
     position: relative;
-    top: 400px;
+    top: 410px;
+    left: 30px;
 }
 
 #cactus{
@@ -20,7 +21,7 @@
     background-image: url(img/cactus.png);
     background-size: 40px 80px;
     position: relative;
-    top: 320px;
+    top: 325px;
     left: 1150px;
     animation: cactusMov 2s infinite linear;
 }
@@ -29,27 +30,27 @@
         left: 1150px;
     }
     100%{
-        left: -30px;
+        left: -20px;
     }
 }
 
 .jump{
-    animation: jump 2s linear;
+    animation: jump 0.5s linear;
 }
 @keyframes jump {
     0%{
-        top: 320px;
+        top: 325px;
     }
-    25%{
-        top: 270px;
+    30%{
+        top: 280px;
     }
     50%{
-        top: 220px;
+        top: 240px;
     }
-    75%{
-        top: 270px;
+    80%{
+        top: 280px;
     }
     100%{
-        top: 320px;
+        top: 325px;
     }
 }
